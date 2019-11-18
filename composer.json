@@ -18,6 +18,10 @@
             "type": "vcs",
             "url": "https://github.com/weeshop/WeeShop"
         },
+        "alipay": {
+            "type": "vcs",
+            "url": "https://github.com/solody/alipay"
+        },
         "packagist": {
             "type": "composer",
             "url": "https://mirrors.aliyun.com/composer/"
@@ -35,7 +39,6 @@
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.7.0",
-        "drupal/commerce": "^2.0",
         "drupal/search_api": "^1.0",
         "drupal/swiftmailer": "^1.0",
         "drupal/token": "^1.0",
@@ -43,6 +46,7 @@
         "oomphinc/composer-installers-extender": "^1.1",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",
+        "wikimedia/composer-merge-plugin": "^1.4",
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
     "require-dev": {
@@ -74,6 +78,16 @@
         ]
     },
     "extra": {
+        "merge-plugin": {
+            "include": [
+                "web/modules/custom/*/composer.json",
+                "web/profiles/custom/*/composer.json",
+                "web/profiles/custom/*/modules/custom/*/composer.json"
+            ],
+            "recurse": false,
+            "replace": false,
+            "merge-extra": false
+        },
         "composer-exit-on-patch-failure": true,
         "patchLevel": {
             "drupal/core": "-p2"
