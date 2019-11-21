@@ -13,10 +13,6 @@
         "drupal": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-        },
-        "packagist": {
-            "type": "composer",
-            "url": "https://mirrors.huaweicloud.com/repository/php/"
         }
     },
     "config": {
