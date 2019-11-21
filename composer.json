@@ -14,10 +14,6 @@
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         },
-        "weeshop": {
-            "type": "vcs",
-            "url": "https://github.com/weeshop/WeeShop"
-        },
         "packagist": {
             "type": "composer",
             "url": "https://mirrors.aliyun.com/composer/"
