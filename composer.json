@@ -34,7 +34,7 @@
         "oomphinc/composer-installers-extender": "^1.1",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",
-        "weeshop/weeshop": "^1.0",
+        "weeshop/weeshop": "dev-8.x-1.x",
         "wikimedia/composer-merge-plugin": "^1.4",
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
