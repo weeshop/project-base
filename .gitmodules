@@ -1,0 +1,3 @@
+[submodule "web/profiles/custom/weeshop"]
+	path = web/profiles/custom/weeshop
+	url = git@github.com:weeshop/WeeShop.git

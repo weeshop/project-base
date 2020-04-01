@@ -27,6 +27,7 @@
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.7.0",
+        "drupal/devel_entity_updates": "^1.0",
         "drupal/search_api": "^1.0",
         "drupal/swiftmailer": "^1.0",
         "drupal/token": "^1.0",
@@ -34,7 +35,6 @@
         "oomphinc/composer-installers-extender": "^1.1",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",
-        "weeshop/weeshop": "^1.0.0",
         "wikimedia/composer-merge-plugin": "^1.4",
         "zaporylie/composer-drupal-optimizations": "^1.0"
     },
